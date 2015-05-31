@@ -6,6 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import org.jain.treedragsortlist.R;
 
@@ -30,6 +31,7 @@ public class TreeDragSortController extends DragSortController {
         v.findViewById(R.id.treeview_list_indent_view).setVisibility(View.GONE);
         v.findViewById(R.id.datatree_image_layout).setVisibility(View.GONE);
         v.findViewById(R.id.datatree_connect_line).setVisibility(View.GONE);
+        ((TextView)v.findViewById(R.id.menu_main_left_item_textView)).setTextColor(Color.RED);
         v.setPressed(false);
 
         // Create a copy of the drawing cache so that it does not get
@@ -41,6 +43,7 @@ public class TreeDragSortController extends DragSortController {
         v.findViewById(R.id.treeview_list_indent_view).setVisibility(leftLineVisibility);
         v.findViewById(R.id.datatree_image_layout).setVisibility(View.VISIBLE);
         v.findViewById(R.id.datatree_connect_line).setVisibility(bottomLineVisibility);
+        ((TextView)v.findViewById(R.id.menu_main_left_item_textView)).setTextColor(Color.GRAY);
         if (mImageView == null) {
             mImageView = new ImageView(mListView.getContext());
         }
