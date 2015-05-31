@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_marginLeft="-2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/treeview_list_indent_view"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:id="@+id/datatree_image_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical"
+        android:layout_marginLeft="-2dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/datatree_line"
+            android:scaleType="fitXY"
+            android:id="@+id/datatree_top_stretch_view" />
+
+        <ImageView
+            android:id="@+id/treeview_list_item_image"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:src="@drawable/datatree_mid"
+            android:focusable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/datatree_line"
+            android:scaleType="fitXY"
+            android:id="@+id/datatree_bottom_stretch_view" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/treeview_list_item_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</LinearLayout>

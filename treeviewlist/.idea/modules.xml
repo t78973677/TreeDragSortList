@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../NeweggBox/NeweggBox.iml" filepath="$PROJECT_DIR$/../../NeweggBox/NeweggBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../NeweggBoxCoreR/NeweggBoxCoreR.iml" filepath="$PROJECT_DIR$/../../NeweggBoxCoreR/NeweggBoxCoreR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NeweggBoxLibs.iml" filepath="$PROJECT_DIR$/../NeweggBoxLibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-color-picker-master/android-color-picker-master.iml" filepath="$PROJECT_DIR$/../android-color-picker-master/android-color-picker-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-appcompat/android-support-v7-appcompat.iml" filepath="$PROJECT_DIR$/../android-support-v7-appcompat/android-support-v7-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gson/gson.iml" filepath="$PROJECT_DIR$/../gson/gson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../neweggbox_android.iml" filepath="$PROJECT_DIR$/../../neweggbox_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../neweggtech-box-cache/neweggtech-box-cache.iml" filepath="$PROJECT_DIR$/../neweggtech-box-cache/neweggtech-box-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/neweggtech-box-treeviewlist.iml" filepath="$PROJECT_DIR$/neweggtech-box-treeviewlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../neweggtech-box-views/neweggtech-box-views.iml" filepath="$PROJECT_DIR$/../neweggtech-box-views/neweggtech-box-views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../neweggtech-box-webservicecore/neweggtech-box-webservicecore.iml" filepath="$PROJECT_DIR$/../neweggtech-box-webservicecore/neweggtech-box-webservicecore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../volley/volley.iml" filepath="$PROJECT_DIR$/../volley/volley.iml" />
+    </modules>
+  </component>
+</project>
