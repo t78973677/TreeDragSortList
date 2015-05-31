@@ -1,9 +1,9 @@
 # TreeDragSortList #
 
-1. **move item**
+1. ### move item ###
 ![](http://std.hku.edu.tw/~b911100304/android/2015-05-31_155837.png)
 
-2. **add parent**
+2. ### add parent ###
 ![](http://std.hku.edu.tw/~b911100304/android/2015-05-31_160102.png)
 
 ----------
